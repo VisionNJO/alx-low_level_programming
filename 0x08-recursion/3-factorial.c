@@ -3,6 +3,8 @@
 /**
  * factorial - Entry
  * Description: Write a function that returns the factorial of a given number
+ * @n: number  of  factorial
+ * Return: Always (Success)
  */
 int factorial(int n)
 {
