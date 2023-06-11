@@ -4,11 +4,15 @@
  * factorial - Entry
  * Description: Write a function that returns the factorial of a given number
  */
-int fact(int n)
+int factorial(int n)
 {
-	if (n == 1)
+	if (n < 0)
 	{
 		return (-1);
+	}
+	else if (n == 0)
+	{
+		return (1);
 	}
 	else
 	{
