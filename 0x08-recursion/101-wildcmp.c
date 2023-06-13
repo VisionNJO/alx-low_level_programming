@@ -32,6 +32,13 @@ int check_match(char *s1, char *s2)
 	return (0);
 }
 
+/**
+ * wildcmp - Entry point
+ * Description: Compares 2 strings
+ * @s1: Character
+ * @s2: Character
+ * Return: 1 or 0
+ */
 
 int wildcmp(char *s1, char *s2)
 {
