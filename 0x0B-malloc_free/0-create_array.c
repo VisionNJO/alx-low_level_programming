@@ -4,7 +4,7 @@
 
 /**
  * create_array - a function that creates an array of chars 
- *                and initializes it with a specific char.
+ * and initializes it with a specific char.
  * @size: size of an array
  * @c: char
  * Return: NULL if error else return ptr
@@ -24,4 +24,3 @@ char *create_array(unsigned int size, char c)
 	}
 	return ((size == 0) ? NULL : s);
 }
- 
