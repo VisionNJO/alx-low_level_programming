@@ -3,8 +3,7 @@
 #include "main.h"
 
 /**
- * create_array - a function that creates an array of chars 
- * and initializes it with a specific char.
+ * create_array - a function that creates an array of chars
  * @size: size of an array
  * @c: char
  * Return: NULL if error else return ptr
